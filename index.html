@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artisanal Vodka Logo</title>
+    <style>
+        .logo-text {
+            text-transform: uppercase;
+            font-family: 'monospace';
+            text-align: center;
+            font-weight: 100;
+            font-size: 40px;
+            letter-spacing: 20px;
+            color: plum;
+            position: relative;
+        }
+
+        .logo-text::after {
+            content: "";
+            position: absolute;
+            height: 8px;
+            background-color: plum;
+            bottom: -4px;
+            border-radius: 50%;
+            animation: wave 2s infinite linear;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="logo-text">Artisanal Vodka</div>
+</body>
+</html>
